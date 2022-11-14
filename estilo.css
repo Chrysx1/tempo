@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+html{
+    font-family: 'Poppins', sans-serif ;
+    font-weight: lighter;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+#kk {
+    background: wheat;
+    border-radius: 50px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+.container{
+    margin: 10px;
+    padding: 10px;
+    
+    border-radius: 25px;
+    
+}
+
+footer{
+    color: white;
+    text-align: center;
+}
+
+select#flista{
+    width: 150px;
+    font-size: 12px;
+}
+
+#foto{
+    width: 60%;
+    border-radius: 250px;
+    height: 270px;
+    box-shadow: 3px 9px 10px rgba(0, 0, 0, 0.492);
+    margin-bottom: 25px;
+}
+
+#res{
+    padding-bottom: 10px;
+
+}
+h1{
+    font-size: 35px;
+}
+
+#flista{
+    background-color: transparent;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    border-radius: 10px;
+    margin: 5px;
+    overflow: hidden;
+}
+
+#txtn{
+    border: 1px solid white;
+    width: 20%;
+    border-radius: 10px;
+    background-color: transparent;
+    padding: 5px;
+    color: white;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+#btn{
+    background-color: transparent;
+    border: 1px solid white;
+    height: 25px;
+    border-radius: 100%;
+    margin: auto;
+    color: white;
+
+}
+
+#btn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#btn2{
+    background-color: transparent;
+    border: 1px solid white;
+    height: 25px;
+    border-radius: 10px;
+    margin: auto;
+    color: white;
+    margin-top: 10px;
+}
+
+#btn2:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+
+}
+
+#deGraca {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    
+}
+
+#hour,
+#minute,
+#second {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.518);
+    border-radius: 15px;
+    transform-origin: bottom;
+    margin-top: -10px;
+}
+
+#hour {
+    width: 1.2%;
+    height: 20%;
+    top: 28%;
+    left: 48.4%;
+
+}
+
+#minute {
+    width: 0.8%;
+    height: 30%;
+    top: 19%;
+    left: 48.9%;
+
+}
+
+#second {
+    width: 0.6%;
+    height: 40%;
+    top: 9%;
+    left: 49.25%;
+}
+
+#msg{
+    width: 50%;
+    font-size: 60px;
+    background-color: rgba(0, 0, 0, 0.547);
+    border-radius: 50px;
+    color: white;
+    margin: auto;
+}
