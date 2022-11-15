@@ -109,6 +109,7 @@ function hora(){
         corpo.style.backgroundImage = "url('manha.jpg')"
         corpo.style.backgroundRepeat = "no-repeat"
         corpo.style.backgroundSize = "cover"
+        sec.style.color = 'white'
 
     } else if ( hora >= 12 && hora < 18){
         foto.src = 'tarde.jpg'
