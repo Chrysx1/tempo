@@ -7,7 +7,7 @@ function hora(){
     var msg = window.document.getElementById('msg')
     var img = window.document.getElementById('#foto')
     var data = new Date()
-    var hora = 6 //data.getHours()
+    var hora = data.getHours()
     var minuto = data.getMinutes()
     var segundo = data.getSeconds()
     if(minuto < 10) minuto = "0"+ minuto
